@@ -20,7 +20,7 @@ import Foundation
 ///   let client = Client<CustomDataTypes>(currentUser: user, config: config)
 /// ```
 ///
-public protocol ExtraDataTypes {
+public protocol ExtraDataTypes {  
     /// An extra data type for `ChatUser`.
     associatedtype User: UserExtraData = NoExtraData
     
